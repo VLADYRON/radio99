@@ -1,0 +1,23 @@
+{
+  "name": "radio-99",
+  "version": "1.0.1",
+  "description": "Radio 99",
+  "author": "bladymir <bladymir@albatross.pe>",
+  "homepage": "https://www.mysite.com",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "packager": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^2.0.0",
+    "electron-packager": "^12.0.2",
+    "electron-builder": "^20.13.4"
+  },
+  "build": {
+        "linux": {
+          "target" : "deb"
+          }
+ }
+}
