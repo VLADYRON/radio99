@@ -7,17 +7,17 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "packager": "electron-builder --dir",
+    "pack": "electron-packager --dir",
     "dist": "electron-builder"
   },
   "devDependencies": {
     "electron": "^2.0.0",
-    "electron-packager": "^12.0.2",
-    "electron-builder": "^20.13.4"
+    "electron-packager": "^12.1.0",
+    "electron-builder": "^20.15.1"
   },
   "build": {
-        "linux": {
-          "target" : "deb"
-          }
- }
+    "linux": {
+      "target": "deb"
+    }
+  }
 }
